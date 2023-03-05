@@ -18,7 +18,7 @@ function App() {
             <Route path='home' element={<Home></Home>}></Route>
             <Route path='users' element={<Users></Users>}></Route>
             <Route path='contents' element={<Contents></Contents>}></Route>
-          </Routes>
+          </Routes> 
       </BrowserRouter>
     </div>
 
