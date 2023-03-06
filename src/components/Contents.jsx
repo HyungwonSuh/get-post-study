@@ -11,7 +11,7 @@ const Contents = (props) => {
             method: 'GET'
         }).then(res=>res.json()).then(res=>{
             console.log(res);
-            setProfile(res)
+            setProfile(res);
         })
     },[])
 
