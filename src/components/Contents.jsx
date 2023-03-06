@@ -10,7 +10,6 @@ const Contents = (props) => {
         fetch('http://172.30.1.26:3000/post', {
             method: 'GET'
         }).then(res=>res.json()).then(res=>{
-            console.log(res);
             setProfile(res);
         })
     },[])
